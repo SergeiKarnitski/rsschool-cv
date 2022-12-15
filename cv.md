@@ -28,3 +28,17 @@ the ability to make decisions independently, communication with the management o
 - CSS
 - JS
 - Git
+
+## Code Example
+```
+function sum(a, b) {
+    return a + b;
+}
+
+let result = sum(1, 2);
+alert(result);
+```
+## Work experience
+[project link](https://sergeiworks.w3spaces.com/)
+## Education
+BELARUSIAN STATE ACADEMY OF COMMUNICATIONS
