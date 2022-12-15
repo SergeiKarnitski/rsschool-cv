@@ -42,3 +42,8 @@ alert(result);
 [project link](https://sergeiworks.w3spaces.com/)
 ## Education
 BELARUSIAN STATE ACADEMY OF COMMUNICATIONS
+
+MASTER'S DIPLOMA: AUTOMATION AND CONTROLTECHNOLOGICAL PROCESSES AND PRODUCTIONS (software INDUSTRIES).
+## Languages
+- English - B1
+- Russian - Native
