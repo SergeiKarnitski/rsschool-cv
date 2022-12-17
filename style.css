@@ -1,9 +1,14 @@
+html {
+    scroll-behavior: smooth; 
+  }
+
 body {
     margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    min-height: 100vh;
     font-family: 'Open Sans', sans-serif;
     background-color: #e7ddd1;
 }
@@ -13,13 +18,17 @@ body {
 }
 
 .container {
+    max-width: 1440px;
     margin: 0 auto;
-    width: 1110px;
 }
 
 body, h1, h2, h3, h4, p {
     margin: 0;
     padding: 0;
+}
+
+p {
+    line-height: 28px;
 }
 
 .header {
@@ -28,7 +37,6 @@ body, h1, h2, h3, h4, p {
 
 .navigation {
     padding: 20px 0px;
-    
     font-weight: 500;
     font-size: 20px;
     justify-content: space-between;
@@ -37,20 +45,41 @@ body, h1, h2, h3, h4, p {
     text-transform: uppercase;
 }
 
+.navigation_link {
+    
+}
+
+.navigation li a {
+    padding: 0 20px;
+    color: #728d76;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.navigation li a:hover {
+    color: #5c2d2d
+
+}
+
 h1 {
     font-weight: 800;
     margin: 70px 0px;
 }
 
-img {
+.photo {
     display: block;
     width: 300px;
     border-radius: 180px;
     margin: 50px 0px 0px 300px;
 }
 
+.schoolLogo {
+    width: 100px;
+    margin-left: 100px;
+}
+
 .contacts {
-    margin-left: 50px;
+    margin-left: 200px;
 }
 
 .contacts li {
@@ -61,3 +90,15 @@ img {
     display: flex;
 }
 
+.footer {
+    background-color: bisque;
+}
+
+.footer_text {
+    display: flex;
+    justify-content: center;
+}
+
+.footer_text p {
+    margin: auto 0;
+}
