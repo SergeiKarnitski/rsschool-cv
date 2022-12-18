@@ -27,8 +27,22 @@ body, h1, h2, h3, h4, p {
     padding: 0;
 }
 
+h1 {
+    font-weight: 800;
+    font-size: 40px;
+    margin: 70px 0px;
+}
+
+h2 {
+    margin: 20px 0px;
+    font-weight: 700;
+    font-size: 28px;
+}
+
 p {
     line-height: 28px;
+    font-weight: 500;
+    font-size: 16px;
 }
 
 .header {
@@ -45,10 +59,6 @@ p {
     text-transform: uppercase;
 }
 
-.navigation_link {
-    
-}
-
 .navigation li a {
     padding: 0 20px;
     color: #728d76;
@@ -59,11 +69,6 @@ p {
 .navigation li a:hover {
     color: #5c2d2d
 
-}
-
-h1 {
-    font-weight: 800;
-    margin: 70px 0px;
 }
 
 .photo {
@@ -90,8 +95,18 @@ h1 {
     display: flex;
 }
 
+.skil {
+    text-decoration: none;
+    list-style: circle;
+}
+
+#project {
+    text-decoration: none;
+    color: #4e9c71;
+}
+
 .footer {
-    background-color: bisque;
+    background-color: #ffe4c4;
 }
 
 .footer_text {
@@ -101,4 +116,15 @@ h1 {
 
 .footer_text p {
     margin: auto 0;
+}
+
+.other {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.footer_text a {
+    color: #000000;
+    margin: auto 30px;
 }
