@@ -4,9 +4,95 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/img/MyPhoto.jpg">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div></div>
+    <header class="header" id="header">
+        <nav class="container">
+            <ul class="navigation">
+                <li><a href="#contacts" class="navigation_link">Contacts</a></li>
+                <li><a href="#aboutMyself" class="navigation_link">About myself</a></li>
+                <li><a href="#skills" class="navigation_link">Skills</a></li>
+                <li><a href="#codeExample" class="navigation_link">Code Example</a></li>
+                <li><a href="#workExperience" class="navigation_link">Work experience</a></li>
+                <li><a href="#education" class="navigation_link">Education</a></li>
+                <li><a href="#languages" class="navigation_link">Languages</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main" id="main">
+        <div class="container">
+            <div class="about_me">
+                <section class="contacts">
+                    <h1>Sergei Karnitski</h1>
+                    <h2 id="contacts">Contacts</h2>
+                    <ul>
+                        <li>Location: Minsk, Belarus</li>
+                        <li>Phone: +375 29 674 99 49</li>
+                        <li>Email: sergeikarnitski@gmail.com</li>
+                        <li>GitHub: SergeiKarnitski</li>
+                    </ul>    
+                </section>
+                <img src="assets/img/MyPhoto.jpg" alt="MyPhoto" class="photo">
+            </div>
+            <h2 id="aboutMyself">About myself</h2><hr>
+            <p>He worked as a service engineer in a medical company and did the following things:
+                Maintenance, repair, commissioning of laboratory diagnostic equipment (analyzers) in healthcare facilities throughout the Republic of Belarus.
+                Work in 1C, Bitrix24: accounting and reporting on the performance of work, control over the execution of applications.
+                Consultation and provision of methodological and methodological assistance to users regarding the repair and maintenance of medical equipment.
+                Business communication with the manufacturer of medical equipment.
+                Representation of the interests of the company and negotiations with the customer and interested people.
+                Promotion of products sold.
+                Document management (drafting acts, control and documentation).
+                Participation in the development of instructions for optimizing work processes, as well as proposals for improving repair / adjustment work.
+                Passing internal training, watching webinars, studying English-language literature.
+                Writing articles. The last one for the main medical portal in the Republic of Belarus and the newspaper “Medical Bulletin” on the topic of work. linc to article.
+                Drivers license.
+                My skills: work with various types of equipment and directions, the ability to make decisions independently, communication with the management of HM and medical laboratories (heads, seniors), settlement of non-standard situations and expert support, professional literacy, diligence, business style of writing and communication.
+            </p><hr>
+            <section class="other">
+                <div>
+                    <h2 id="skills">Skills</h2>
+                    <ul>
+                        <li class="skil">HTML</li>
+                        <li class="skil">CSS</li>
+                        <li class="skil">JS</li>
+                        <li class="skil">Git</li>
+                    </ul>  
+                    <h2 id="codeExample">Code Example</h2>
+                    <p>
+                        <code>
+                            function sum(a, b) {
+                            <br>return a + b;
+                            <br>}
+                            <br>let result = sum(1, 2);
+                            <br>alert(result);
+                        </code>
+                    </p>    
+                </div>
+                <div>
+                    <h2 id="workExperience">Work experience</h2>
+                    <a href="https://sergeiworks.w3spaces.com/" target="_blank" id="project">project link</a>
+                    <h2 id="education">Education</h2>
+                    <p>BELARUSIAN STATE ACADEMY OF COMMUNICATIONS <br>MASTERS DIPLOMA: AUTOMATION AND CONTROLTECHNOLOGICAL PROCESSES AND PRODUCTIONS (software INDUSTRIES).</p>
+                    <h2 id="languages">Languages</h2>
+                    <p>English - B1 <br>Russian - Native</p>
+                </div>    
+            </section>
+        </div>
+    </main>
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="footer_text">
+                <p>2022</p>
+                <a href="https://github.com/SergeiKarnitski" target="_blank">SergeiKarnitski</a>
+                <img src="assets/img/rsschoolLogo.svg" alt="logoSchool" class="schoolLogo">    
+                <a href="https://rs.school/js/" target="_blank">Rsschool</a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
